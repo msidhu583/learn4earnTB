@@ -1,0 +1,15 @@
+package com.javaprogram;
+
+public class loops_program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        int i = 1;
+        	while(i<10) {
+        		System.out.println("the value if i is :" + i);
+        		i = i++;
+        		i = i+1;
+        	}
+	}
+
+}

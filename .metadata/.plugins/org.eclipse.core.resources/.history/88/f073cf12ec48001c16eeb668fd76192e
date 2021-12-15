@@ -1,0 +1,11 @@
+package com.javaprogram;
+
+public class Frist_Java_Program {
+
+	public static void main(String[] args) {
+		
+   	System.setProperty("webdriver.chrome.driver" , "C:\\Learning Automation\\Brower Driver\\chromedriver.exe");
+   	WebDriver driver = new ChromeDriver();
+	}
+
+}

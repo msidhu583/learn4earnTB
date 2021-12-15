@@ -1,0 +1,18 @@
+package com.javaprogram;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Frist_Java_Program {
+
+	public static void main(String[] args) {
+		
+   	System.setProperty("webdriver.chrome.driver" , "C:\\Learning Automation\\Brower Driver\\chromedriver.exe");
+   	WebDriver driver = new ChromeDriver();
+   	driver.manage().window().maximize();
+   	
+   	driver.get("https://google.com");
+	}
+
+	
+}

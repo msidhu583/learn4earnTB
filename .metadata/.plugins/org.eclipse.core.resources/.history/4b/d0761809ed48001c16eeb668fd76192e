@@ -1,0 +1,18 @@
+package com.javaprogram;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.GeckoDriverInfo;
+
+public class Frist_Java_Program {
+
+	public static void main(String[] args) {
+		
+   	System.setProperty("webdriver.Firefox.driver" , "C:\\Learning Automation\\Brower Driver\\geckodriver.exe");
+   	WebDriver driver = new GeckoDriver();
+   	driver.manage().window().maximize();
+   	
+   	driver.get("https://google.com");
+	}
+
+	
+}

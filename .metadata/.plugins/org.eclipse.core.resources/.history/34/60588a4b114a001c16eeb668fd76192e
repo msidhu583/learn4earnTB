@@ -1,0 +1,29 @@
+package com.javaprogram;
+
+public class Increment_Decrement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+           int i = 10;
+           i = 20;
+    	   int j = i++;
+    	   
+    	   System.out.println(" The value of i is" + i);
+    	   
+    	   System.out.println("the value if j is" + j);
+    	   
+    	   
+           int k = ++j;
+           int l = k++ + ++k;
+           int m = l++;
+           int n = ++k + m++ - i-- - --i - --k;
+           System.out.println(i);
+           System.out.println(j);
+           System.out.println(k);
+           System.out.println(l);
+           System.out.println(m);
+           System.out.println(n);
+        
+	}
+
+}

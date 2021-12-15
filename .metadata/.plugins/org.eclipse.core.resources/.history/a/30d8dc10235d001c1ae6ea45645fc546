@@ -1,0 +1,29 @@
+package com.maven.learning.MAVEN_AUTOMATION_PROJECT;
+
+import org.openqa.selenium.PageLoadStrategy;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+import io github.boigarcia.wdm.WedDriverManager;
+public class Facebook {
+
+	
+
+		
+		private static final String WebDriverManager = null;
+		private static final String WebDrierManager = null;
+		public static WebDriver driver;
+		public static ChromeOptions options =  new ChromeOptions();
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+		
+			WebDrierManager.chromedriver().setup();
+			options.setPageLoadStrategy(PageLoadStrategy.NORMAL);
+			options.addArguments("--start-maximized");
+			options.addArguments("--incognito");
+			driver =new ChromeDriver(options);
+			driver.get("https://www.facebook.com/");
+			
+	}
+
+}

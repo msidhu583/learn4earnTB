@@ -1,0 +1,17 @@
+package selenium_basis;
+
+import java.util.concurrent.TimeUnit;
+
+public class Timeunit {
+
+	public static final TimeUnit SECONDS = null;
+	public static TimeUnit SECONDS;
+	
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

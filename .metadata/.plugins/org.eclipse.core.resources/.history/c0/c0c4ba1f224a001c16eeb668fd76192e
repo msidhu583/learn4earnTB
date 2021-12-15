@@ -1,0 +1,15 @@
+package com.javaprogram;
+
+public class loops_program {
+
+	public static void main(String[] args) {
+		
+    
+        	int j = 2;
+        	while(j != 0) {
+        		System.out.println("my statment is true");
+        	}
+	}
+	
+
+}

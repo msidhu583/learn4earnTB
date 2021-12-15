@@ -1,0 +1,12 @@
+package com.javaprogram;
+
+public class Multipl_p {
+	int n = 5;
+	for(int i = 1; i<=n; i++) {
+		
+		
+		
+	}
+		
+    
+}

@@ -1,0 +1,21 @@
+package selenium_basis;
+
+public class Browser_Opening {
+	
+	
+	public static WebDriver driver;
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		WebDriverManager.chromedriver().setup();
+		driver = new ChromeDriver();
+		driver.manage().windo();.maxium();
+		driver.manage().tomeout().implicitltywait(20, Timeout.SECOND);
+		driver.get("https://rediff.com");
+		
+		driver.findElement(By.LinkText
+	}
+
+}

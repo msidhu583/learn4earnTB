@@ -1,0 +1,10 @@
+package com.java.TestNg;
+
+public class TestNG_First {
+
+	//becaue of certain annotatios
+	//
+	
+	@BeforeSuite
+	
+}
